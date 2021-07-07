@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    max-height: 200px;
+    border-radius:10px ;
+    border: solid 3px #97C229;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around 
+}
+img.logo{
+    width:200px;
+    height:150px;
+    padding: 10px;
+}
+div.sup{
+    background-color: #97C229;
+    border-radius: 10px;
+    margin: 50px;
+    width: 600px;
+    height: 300px;
+    display: flex;
+}
+div.centre{
+    background-color: #97C229;
+    border-radius: 10px;
+    margin-left:400px ;
+    margin-right: 50px;
+    height: 300px;
+    width: 600px;
+    display: flex;
+}
+div.inf{
+    background-color: #97C229;
+    border-radius: 10px;
+    margin: 50px;
+    height:300px ;
+    width: 600px;
+    display: flex;
+
+}
+img{
+    max-width: 60%;
+    max-height: 100%;
+    border-radius: 35px;
+    /* overflow: auto; */
+    padding: 25px;
+}
+a{
+    color:#97C229;
+}
+section a{
+    color: white;
+}
+div.club{
+    /* background-color: tomato; */
+margin: 30px;
+padding: 30px;
+}
+div.piscine{
+    /* background-color: tomato; */
+    margin: 30px;
+    padding: 20px;
+}
+div.tennis{
+    /* background-color: tomato; */
+    margin: 40px;
+    padding: 10px;
+}
+@media screen and (max-width: 700px) {
+    nav .logo {width: 100px;}
+    /* section{display: flex;}
+    section{flex-direction: column;}
+    div{margin: auto;} */
+  }

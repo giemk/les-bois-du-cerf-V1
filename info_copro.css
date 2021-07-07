@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    max-height: 200px;
+    border-radius:10px ;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around  
+}
+img.logo{
+    width:200px;
+    height:150px;
+    padding: 10px;
+}
+a{color: #97C229;}
+section{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 800px;
+    height: 850px;
+    margin: 50px;
+}
+body{
+    background-color: #97C229;
+}
+img.sergic{
+    width: 80px;
+    height: 30px;
+}
+div{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 700px) {
+    nav .logo {
+      width: 100px;
+    }
+  }
